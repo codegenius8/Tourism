@@ -39,6 +39,7 @@ const App = () => {
       </Switch>
     );
   } else {
+    // switch logic
     routes = (
       <Switch>
         <Route path="/" exact>
