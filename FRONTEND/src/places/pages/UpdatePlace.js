@@ -35,7 +35,7 @@ const UpdatePlace = () => {
     },
     false
   );
-
+//api call
   useEffect(() => {
     const fetchPlace = async () => {
       try {
