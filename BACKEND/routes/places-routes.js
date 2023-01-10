@@ -6,7 +6,7 @@ const fileUpload = require('../middleware/file-upload');
 const checkAuth = require('../middleware/check-auth');
 
 const router = express.Router();
-
+//all places routes api
 router.get('/:pid', placesControllers.getPlaceById);
 
 router.get('/user/:uid', placesControllers.getPlacesByUserId);
