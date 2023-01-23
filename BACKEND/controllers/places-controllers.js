@@ -7,7 +7,7 @@ const HttpError = require('../models/http-error');
 const getCoordsForAddress = require('../util/location');
 const Place = require('../models/place');
 const User = require('../models/user');
-// get place
+// get place Api
 const getPlaceById = async (req, res, next) => {
   const placeId = req.params.pid;
 
