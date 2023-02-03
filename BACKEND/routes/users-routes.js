@@ -5,7 +5,7 @@ const usersController = require('../controllers/users-controllers');
 const fileUpload = require('../middleware/file-upload');
 
 const router = express.Router();
-// user routes
+// user route
 router.get('/', usersController.getUsers);
 
 router.post(
